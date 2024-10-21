@@ -1,0 +1,107 @@
+.register__card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  max-width: 800px;
+  margin: 100px auto;
+  background: #333;
+  color: white;
+}
+
+.register-side__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.register-side__wrapper-icon {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.register__tags {
+  line-height: 0.7;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.register__input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup__button {
+  padding: 10px;
+  background-color: #8fd14f;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.signup__button:hover {
+  background-color: #c0c0c0;
+}
+
+.input-error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 820px) {
+  .register__card {
+    max-width: 600px;
+    margin: 100px auto;
+  }
+
+  .register-side__wrapper {
+    font-size: 14px;
+    margin: 30px 24px;
+  }
+
+  .register-side__wrapper-icon {
+    width: 100px;
+    height: 100px;
+  }
+
+  .register {
+    max-width: 100%;
+    margin-right: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .register__tags {
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .register__card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    max-width: 800px;
+    margin: 50px auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}

@@ -1,0 +1,8 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-error {
+  border-color: red;
+}

@@ -1,0 +1,12 @@
+body {
+  color: #222;
+}
+
+.app {
+  margin: 0 auto;
+}
+
+hr {
+  height: 1px;
+  background-color: black;
+}

@@ -1,0 +1,48 @@
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  background-color: #333;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.empty-state__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.empty-state__message {
+  font-size: 1rem;
+  color: #f9f9f9;
+}
+
+@media screen and (max-width: 1000px) {
+  .empty-state {
+    margin: 2rem auto;
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .empty-state {
+    margin: 2rem auto;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .empty-state {
+    margin: 2rem auto;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .empty-state {
+    margin: 2rem auto;
+    max-width: 270px;
+  }
+}
